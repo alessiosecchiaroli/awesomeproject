@@ -8,9 +8,9 @@ def bl_thickness(TurboType)"
 	:param TurboType: str indicating either 'Turbine' or 'Compressor'
 
 	if TurboType == 'Turbine':
-		bl_thickness = 'Thick'
+		bl_thickness = 'thick'
 	elif TurboType == 'Compressor':
-		bl_thickness = 'Thicker'
+		bl_thickness = 'thicker'
 	else:
 		raise ValueError('That is not even a valid turbomachine type.')
 	
