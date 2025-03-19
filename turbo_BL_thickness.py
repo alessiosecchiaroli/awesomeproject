@@ -3,6 +3,7 @@
 def bl_thickness(TurboType):
 	"""
 	Function to calculate the boundary layer thickness for either a compressor or turbine blade.
+	"""
 	
 	Arguments
 	:param TurboType: str indicating either 'Turbine' or 'Compressor'
