@@ -1,6 +1,6 @@
 # Calculate the bounardy layer thickness along the blades of a turbomachine.
 
-def bl_thickness(TurboType)"
+def bl_thickness(TurboType):
 	"""
 	Function to calculate the boundary layer thickness for either a compressor or turbine blade.
 	
